@@ -1,0 +1,53 @@
+.rps-container {
+    background-color: rgb(151, 135, 135);
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.lower-container {
+    margin: 20px;
+    display: flex;
+    background-size: 100%;
+    flex-direction: column;
+}
+
+.playButtons{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+button{
+    width: 250px;
+    padding: 10px 20px 5px 30px; 
+    text-align:left;
+    vertical-align: text-top;
+}
+
+#rock{
+    background-image: url(./images/rock.png);
+    height: 300px;
+    color: white;
+}
+
+#paper{
+    background-image: url(./images/paper.png);
+    height: 300px;
+    color: white;
+}
+
+#scissors{
+    background-image: url(./images/scissors.png);
+    height: 300px;
+    color: white;
+}
